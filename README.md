@@ -26,44 +26,44 @@ Welcome to my Machine Learning Projects Repository! This repository contains var
 
 ## Projects
 
-### PCA
-Principal Component Analysis (PCA) project.
+### PCA(./PCA_on_Stock_Market)
+This project demonstrates the application of Principal Component Analysis (PCA) to stock market data. The analysis showcases how to leverage PCA to identify major risks and factors influencing asset returns, reconstruct component portfolios, and backtest the suggested portfolios. This study focuses on the first principal component, with similar procedures applicable to the second and third components.
 
 ### Generative Model GridSearchCV
-Optimizing generative models using GridSearchCV.
+
 
 ### Logistic Regression
-Implementation and analysis of logistic regression.
+
 
 ### Classification Evaluation
-Evaluation metrics and techniques for classification models.
+
 
 ### Clustering
-Projects related to various clustering techniques.
+
 
 ### CNN
-Convolutional Neural Networks (CNN) for image and data analysis.
+
 
 ### LSTM
-Long Short-Term Memory (LSTM) networks for time series forecasting.
+
 
 ### MLP
-Multi-Layer Perceptron (MLP) networks for various applications.
+
 
 ### Nearest Neighbors
-K-Nearest Neighbors and related algorithms.
+
 
 ### GMM and LDA
-Gaussian Mixture Models (GMM) and Linear Discriminant Analysis (LDA).
+
 
 ### Decision Trees
-Decision Trees and related algorithms.
+
 
 ### SVM
-Support Vector Machines (SVM) for classification and regression.
+
 
 ### Transformers
-Transformer models for natural language processing and other tasks.
+
 
 ## About Me
 
