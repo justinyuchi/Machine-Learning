@@ -36,25 +36,28 @@ PCA is applied to the stock returns data to extract the principal components and
 
 ## Reconstructing Component Portfolios
 
-Based on the PCA loadings, portfolios aligned with the extracted components are reconstructed. This step involves understanding the economic significance of the PCA weights.
+Based on the PCA loadings, portfolios aligned with the extracted components are reconstructed. This step involves understanding the economic significance of the PCA weights. (Note: This study focuses on the first principal component, with similar procedures applicable to the second and third components.)
 
 ![Component Portfolio](images/component_portfolio.png)
 
 ## Constructing Portfolios through PCA Filtering
 
 Using PCA weights, portfolios that are least sensitive or even negatively correlated to the primary principal component are constructed.
+(Note: This study focuses on the first principal component, with similar procedures applicable to the second and third components.)
 
 ![PCA Filtering](images/pca_filtering.png)
 
 ## Backtesting PCA-Suggested Portfolios
 
-To avoid look-ahead bias, information from the previous period is used to construct the portfolio. In this study, data prior to 2022-01-01 is used to construct the PCA-suggested portfolios, and data post-2022-01-01 is used to backtest the strategy.
+To avoid look-ahead bias, information from the previous period is used to construct the portfolio. In this study, data prior to 2022-01-01 is used to construct the PCA-suggested portfolios, and data post-2022-01-01 is used to backtest the strategy. (Note: This study focuses on the first principal component, with similar procedures applicable to the second and third components.)
 
 ### Backtesting: Portfolio with 10 Highest First Component Factor Loadings
+(Note: This study focuses on the first principal component, with similar procedures applicable to the second and third components.)
 
 ![Backtesting: Equally Weighted Portfolio with Stocks with 10 Highest First Component Factor Loadings](images/backtesting_highest_10_factor_loading.png)
 
 ### Backtesting: Portfolio with 10 Lowest First Component Factor Loadings
+(Note: This study focuses on the first principal component, with similar procedures applicable to the second and third components.)
 
 ![Backtesting: Equally Weighted Portfolio with Stocks with 10 Lowest First Component Factor Loadings](images/backtesting_lowest_10_factor_loading.png)
 
