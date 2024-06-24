@@ -8,7 +8,7 @@ Welcome to my Machine Learning Projects Repository! This repository contains var
 ## Table of Contents
 
 - [Projects](#projects)
-  - [PCA on Stock Market](#pca)
+  - [PCA on Stock Market](#PCA-on-Stock-Market)
   - [Generative Model GridSearchCV](#generative-model-gridsearchcv)
   - [Logistic Regression](#logistic-regression)
   - [Classification Evaluation](#classification-evaluation)
