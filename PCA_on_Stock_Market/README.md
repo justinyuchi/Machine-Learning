@@ -25,7 +25,7 @@ In this study, Principal Component Analysis (PCA) is directly applied to stock r
 
 Initial data analysis is conducted to understand the structure and characteristics of the stock market data.
 
-![Daily Returns of Stocks](images/eda.png)
+![Daily Returns of Stocks](images/stocks_returns.png)
 ![Correlation Heatmap](images/correlation_heatmap.png)
 
 ## Applying PCA to Stock Returns
