@@ -25,7 +25,7 @@ In this study, Principal Component Analysis (PCA) is directly applied to stock r
 
 Initial data analysis is conducted to understand the structure and characteristics of the stock market data.
 
-![Daily Returns of Stocks](images/stocks_returns.png)
+![Daily Returns of Stocks](images/eda.png)
 ![Correlation Heatmap](images/correlation_heatmap.png)
 
 ## Applying PCA to Stock Returns
@@ -61,6 +61,8 @@ To avoid look-ahead bias, information from the previous period is used to constr
 ## Discussion and Limitations
 
 A detailed discussion on the findings, potential limitations, and areas for future research is provided. Different PCA methods suitable for financial data analysis are also explored.
+
+PCA can be applied to the stock market to extract factor movements and identify risk factors for investment and hedging purposes. There are numerous ways to apply PCA, and specific methods can be tailored to meet various needs, such as historical research, hedging, and temporal insights extraction.
 
 ## Conclusion
 
