@@ -67,7 +67,7 @@ This project demonstrates the application of Principal Component Analysis (PCA) 
 
 ## About Me
 
-I am a Master's student in Quantitative Finance with dual bachelor's degrees in Science and Business Administration. My academic focus includes artificial intelligence, statistics, and finance. Most of the projects in this repository are related to the application of machine learning and deep learning in Quantitative Finance, although some are dedicated to exploring the methodologies themselves.
+I am a Master's student in Quantitative Finance with dual bachelor's degrees in Science and Business Administration. My academic focus includes artificial intelligence, statistics, and finance. Most of the projects in this repository are related to the application of machine learning and deep learning in Quantitative Finance, although some are dedicated to exploring the methodologies themselves. Visit my [personal website](https://justinyuchi.github.io/justinyuchihsu.github.io/) for more about my work and interests.
 
 ## License
 
