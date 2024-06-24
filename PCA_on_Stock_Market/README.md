@@ -49,7 +49,7 @@ Using PCA weights, portfolios that are least sensitive or even negatively correl
 
 ## Backtesting PCA-Suggested Portfolios
 
-To avoid look-ahead bias, information from the previous period is used to construct the portfolio. In this study, data prior to 2022-01-01 is used to construct the PCA-suggested portfolios, and data post-2022-01-01 is used to backtest the strategy. (Note: This study focuses on the first principal component, with similar procedures applicable to the second and third components.)
+To avoid look-ahead bias, information from the previous period is used to construct the portfolio. In this study, data before 2022-01-01 is used to build the PCA-suggested portfolios, and data post-2022-01-01 is used to backtest the strategy. 
 
 ### Backtesting: Portfolio with 10 Highest First Component Factor Loadings
 (Note: This study focuses on the first principal component, with similar procedures applicable to the second and third components.)
@@ -98,7 +98,7 @@ There are several methods to conduct Principal Component Analysis (PCA) to ident
 
 &nbsp;&nbsp;&nbsp;&nbsp;*Description:* Multiway PCA extends traditional PCA to handle panel data, incorporating both time-series and cross-sectional information, such as financial ratios and factor loadings.
 
-&nbsp;&nbsp;&nbsp;&nbsp;*Advantages:* Handles more complex data structures, provides deeper insights by combining multiple dimensions of data.
+&nbsp;&nbsp;&nbsp;&nbsp;*Advantages:* Handles more complex data structures, and provides deeper insights by combining multiple dimensions of data.
 
 &nbsp;&nbsp;&nbsp;&nbsp;*Disadvantages:* More complex to implement, higher computational requirements.
 
@@ -106,7 +106,7 @@ There are several methods to conduct Principal Component Analysis (PCA) to ident
 
 &nbsp;&nbsp;&nbsp;&nbsp;*Description:* Use DTW to align time series data, then calculate a covariance matrix based on the aligned series and apply PCA. This method adjusts for temporal misalignments before factor extraction.
 
-&nbsp;&nbsp;&nbsp;&nbsp;*Advantages:* Captures true relationships by aligning time series, improves factor detection in the presence of temporal shifts.
+&nbsp;&nbsp;&nbsp;&nbsp;*Advantages:* Captures true relationships by aligning time series, and improves factor detection in the presence of temporal shifts.
 
 &nbsp;&nbsp;&nbsp;&nbsp;*Disadvantages:* Computationally intensive, sensitive to noise and outliers.
 
@@ -121,7 +121,7 @@ There are several methods to conduct Principal Component Analysis (PCA) to ident
 ### The choice of PCA method depends on the specific task at hand:
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;**Capturing Temporal Information:** Direct PCA on return series, Rolling Window PCA, or Dynamic PCA are more suitable.
+&nbsp;&nbsp;&nbsp;&nbsp;**Capturing Temporal Information:** Direct PCA on return series, Rolling Window PCA, or Dynamic PCA is more suitable.
 
 &nbsp;&nbsp;&nbsp;&nbsp;**Explaining Variability:** PCA on the covariance matrix or Multiway PCA can provide clearer insights into the underlying factors.
 
