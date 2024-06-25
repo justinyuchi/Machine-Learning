@@ -1,7 +1,7 @@
 
 # Gaussian Naive Bayes, RandomizedSearchCV & Random Forest
 
-Welcome to this repository, where I share a comprehensive Jupyter notebook designed to implement a machine learning pipeline for predicting stock performance using Gaussian Naive Bayes, RandomizedSearchCV, and Random Forest. 
+Welcome to this repository, where I share a comprehensive Jupyter notebook designed to implement a machine-learning pipeline for predicting stock performance using Gaussian Naive Bayes, RandomizedSearchCV, and Random Forest. 
 
 I did not build the trading strategy in this document, but the predicted probabilities for deciles can be used to create signals and generate strategies. Further study can be seen in the Quantitative-Strategies repository.
 
