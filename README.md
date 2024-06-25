@@ -29,7 +29,7 @@ Welcome to my Machine Learning Projects Repository! This repository contains var
 ### [Principal Component Analysis (PCA) on Stock Market](./PCA_on_Stock_Market)
 This project demonstrates the application of Principal Component Analysis (PCA) to stock market data. The analysis showcases how to leverage PCA to identify major risks and factors influencing asset returns, reconstruct component portfolios, and backtest the suggested portfolios. This study focuses on the first principal component, with similar procedures applicable to the second and third components.
 
-### Gaussian Naive Bayes, RandomizedSearchCV & Random Forest(./Gaussian_Naive_Bayes_RandomizedSearchCV_&_Random_Forest)
+### Gaussian Naive Bayes, RandomizedSearchCV & Random Forest(./Gaussian_Naive_Bayes_RandomizedSearchCV_Random_Forest)
 
 
 ### Logistic Regression
