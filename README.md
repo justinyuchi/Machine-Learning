@@ -9,7 +9,7 @@ Welcome to my Machine Learning Projects Repository! This repository contains var
 
 - [Projects](#projects)
   - [Principal Component Analysis (PCA) on Stock Market](#principal-component-analysis-pca-on-stock-market)
-  - [Gaussian Naive Bayes, RandomizedSearchCV & Random Forest](#gaussian-naive-bayes,-randomizedsearchcv-&-random-forest)
+  - [Gaussian Naive Bayes, RandomizedSearchCV & Random Forest](#gaussian-naive-bayes-randomizedsearchcv--random-forest)
   - [Logistic Regression](#logistic-regression)
   - [Classification Evaluation](#classification-evaluation)
   - [Clustering](#clustering)
