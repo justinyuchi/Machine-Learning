@@ -30,8 +30,11 @@ Welcome to my Machine Learning Projects Repository! This repository contains var
 This project demonstrates the application of Principal Component Analysis (PCA) to stock market data. The analysis showcases how to leverage PCA to identify major risks and factors influencing asset returns, reconstruct component portfolios, and backtest the suggested portfolios. This study focuses on the first principal component, with similar procedures applicable to the second and third components.
 
 ### [Gaussian Naive Bayes, RandomizedSearchCV & Random Forest](./Gaussian_Naive_Bayes_RandomizedSearchCV_Random_Forest)
-In this study, I develop a customized loss function aimed at optimizing trading outcomes and train models tailored for long/short trading strategies. My goal is to provide a clear and practical example that highlights the potential of these methods.
-I share a comprehensive Jupyter notebook designed to implement a machine-learning pipeline for predicting stock performance using Gaussian Naive Bayes, RandomizedSearchCV, and Random Forest. I did not build the trading strategy in this document, but the predicted probabilities for deciles can be used to create signals and generate strategies. Further study can be seen in the [Quantitative-Strategy repository](https://github.com/justinyuchi/Quantitative-Strategy).
+
+I created a comprehensive Jupyter notebook for predicting stock performance using Gaussian Naive Bayes, RandomizedSearchCV, and Random Forest. While it doesn't include a built trading strategy, it provides predicted probabilities for deciles that can be used to generate signals and strategies.
+
+I developed a customized loss function to optimize trading outcomes and tailored models for long/short trading strategies. Stay tuned for the upcoming release in the [Quantitative-Strategy repository](https://github.com/justinyuchi/Quantitative-Strategy).
+
 
 ### Logistic Regression
 
