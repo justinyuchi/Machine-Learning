@@ -26,9 +26,3 @@ This document focuses on the pipeline and procedures specifically for machine le
 ## Conclusion
 
 Through this study, I aim to demonstrate the transformative potential of advanced techniques in quantitative finance. I believe that with the right tools and approach, we can revolutionize trading strategies and achieve remarkable results.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-Thank you for exploring this repository. I hope it provides valuable insights and sparks your passion for quantitative finance and machine learning.
