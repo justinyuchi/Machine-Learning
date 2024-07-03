@@ -66,6 +66,8 @@ This comparison highlights the trade-offs between simplicity and comprehensivene
 
 For detailed implementation, please refer to the [Clustering Stock Returns: Comparing PCA + K-means and DTW + K-means](https://github.com/justinyuchi/Machine-Learning/blob/eafc1f2235bcdb07d7edc2eec56296b347e6bc76/Clustering_Stock_Returns/Code/Clustering_Stock_Returns__Comparing_PCA_%2B_K_means_and_DTW_%2B_K_means.ipynb) notebook on GitHub.
 
+Stay tuned for an upcoming update where I will explore the **integration of DTW for computing the distance matrix followed by PCA**, aiming to refine our analysis further.
+
 ## Detailed Clustering Results 
 Note: The names of the clusters do not indicate any order or ranking; they merely represent different categories or groups.
 
