@@ -20,13 +20,13 @@ Lead-lag effects are prevalent in stock markets. For example, large-cap stocks o
 From the graph below, I compare the results from two clustering methods:
 
 - **PCA + K-means**
--- Represented by colored regions (Clusters A to J) as shown in the upper-left legend ("Clusters (PCA & K-means)").
-- Stocks are grouped based on their principal component scores, reflecting contemporaneous co-movement.
-- The centroids of these clusters are marked with white crosses.
+  - Represented by colored regions (Clusters A to J) as shown in the upper-left legend ("Clusters (PCA & K-means)").
+  - Stocks are grouped based on their principal component scores, reflecting contemporaneous co-movement.
+  - The centroids of these clusters are marked with white crosses.
 - **DTW + K-means**
-- Represented by different markers (circles, squares, diamonds, etc.) as illustrated by the upper-right legend ("Clusters (DTW & K-means)").
-- This method captures not only contemporaneous co-movement but also lead-lag relationships and other temporal shifting patterns.
-- Stocks with similar DTW-based clusters have the same marker but may be dispersed across different PCA-based clusters.
+  - Represented by different markers (circles, squares, diamonds, etc.) as illustrated by the upper-right legend ("Clusters (DTW & K-means)").
+  - This method captures not only contemporaneous co-movement but also lead-lag relationships and other temporal shifting patterns.
+  - Stocks with similar DTW-based clusters have the same marker but may be dispersed across different PCA-based clusters.
 
 ### Here are the Key Insights and Observations:
 
