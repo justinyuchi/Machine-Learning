@@ -17,37 +17,30 @@ Lead-lag effects are prevalent in stock markets. For example, large-cap stocks o
 
 ## Visualization
 
-From the graph below, I compare the result from two clustering methods:
+From the graph below, I compare the results from two clustering methods:
 
 - **PCA + K-means**
-- **DTW + K-means**
-
-Here are the key insights:
-
-PCA & K-means Clustering:
-
-Represented by colored regions (Clusters A to J) as shown in the upper-left legend ("Clusters (PCA & K-means)").
+- Represented by colored regions (Clusters A to J) as shown in the upper-left legend ("Clusters (PCA & K-means)").
 - Stocks are grouped based on their principal component scores, reflecting contemporaneous co-movement.
 - The centroids of these clusters are marked with white crosses.
-- DTW & K-means Clustering:
-
-Represented by different markers (circles, squares, diamonds, etc.) as illustrated by the upper-right legend ("Clusters (DTW & K-means)").
+- **DTW + K-means**
+- Represented by different markers (circles, squares, diamonds, etc.) as illustrated by the upper-right legend ("Clusters (DTW & K-means)").
 - This method captures not only contemporaneous co-movement but also lead-lag relationships and other temporal shifting patterns.
 - Stocks with similar DTW-based clusters have the same marker but may be dispersed across different PCA-based clusters.
 
-Key Observations:
+### Here are the Key Insights and Observations:
+
+Key Insights :
 - Contemporaneous Co-movement: PCA & K-means primarily capture contemporaneous co-movement, grouping stocks that move together at the same time.
 - Temporal Relationships: DTW & K-means can capture more complex temporal relationships, including lead-lag effects, which are not limited to contemporaneous movements.
 - Cluster Dispersion: The dispersion of similar markers across different colored regions indicates that DTW & K-means can identify stocks with similar temporal dynamics even if they do not move together simultaneously.
 
 ![Comparison of PCA & K-means vs. DTW & K-means Clustering on Stock Returns](image/cluster_mapping_comparison.png)
 
-### Observations
+#### Observations
 
 - Cluster 2 (diamond marker) by DTW + K-means is mostly located at the bottom right of the graph, corresponding to Cluster I and A (light yellow and light blue) by PCA + K-means.
 - Cluster 0 (circle marker) by DTW + K-means is mostly located at the top left of the graph, corresponding to Cluster C and G (light green, light purple) by PCA + K-means.
-
-#### Economic Sectors
 
 Based on the list of companies concerned, let's observe the result through economic sectors:
 
