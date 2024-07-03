@@ -29,6 +29,15 @@ Welcome to my Machine Learning Projects Repository! This repository contains var
 ### [Principal Component Analysis (PCA) on Stock Market](./PCA_on_Stock_Market)
 This project demonstrates the application of Principal Component Analysis (PCA) to stock market data. The analysis showcases how to leverage PCA to identify major risks and factors influencing asset returns, reconstruct component portfolios, and backtest the suggested portfolios. This study focuses on the first principal component, with similar procedures applicable to the second and third components.
 
+### [Stock Clustering Analysis: Comparing PCA + K-means and DTW + K-means](./Clustering_Stock_Returns)
+The project aims to cluster stocks based on their return patterns using two methods: PCA + K-means and DTW + K-means. The study will compare the results to highlight the strengths of each approach.
+
+1. **PCA (Principal Component Analysis) + K-means**: PCA is used for dimensionality reduction, followed by K-means clustering.
+2. **DTW (Dynamic Time Warping) + K-means**: DTW is used to measure the similarity between temporal sequences, followed by K-means clustering.
+
+This study provides insights into the advantages of using DTW for clustering temporal data in financial markets, demonstrating its ability to account for lead-lag effects and other temporal relationships that PCA might overlook. 
+
+
 ### [Gaussian Naive Bayes, RandomizedSearchCV & Random Forest](./Gaussian_Naive_Bayes_RandomizedSearchCV_Random_Forest)
 
 I created a comprehensive Jupyter notebook for predicting stock performance using Gaussian Naive Bayes, RandomizedSearchCV, and Random Forest. While it doesn't include a built trading strategy, it provides predicted probabilities for deciles that can be used to generate signals and strategies.
