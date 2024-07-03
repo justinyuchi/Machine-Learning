@@ -38,6 +38,8 @@ The project aims to cluster stocks based on their return patterns using two meth
 
 This study provides insights into the advantages of using DTW for clustering temporal data in financial markets, demonstrating its ability to account for lead-lag effects and other temporal relationships that PCA might overlook. 
 
+![Comparison of PCA & K-means vs. DTW & K-means Clustering on Stock Returns](graphs/cluster_mapping_comparison.png)
+
 
 ### [Gaussian Naive Bayes, RandomizedSearchCV & Random Forest](./Gaussian_Naive_Bayes_RandomizedSearchCV_Random_Forest)
 
