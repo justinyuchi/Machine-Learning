@@ -9,33 +9,6 @@ The goal of this project is to cluster stocks based on their return patterns usi
 - **PCA (Principal Component Analysis) + K-means:** PCA is used for dimensionality reduction, followed by K-means clustering.
 - **DTW (Dynamic Time Warping) + K-means:** DTW is used to measure the similarity between temporal sequences, followed by K-means clustering.
 
-## Clustering Results 
-Note: The names of the clusters do not indicate any order or ranking; they merely represent different categories or groups.
-
-### PCA + K-means
-The clustering based on PCA + K-means resulted in the following clusters:
-
-- **Cluster 0:** 27 stocks  
-  ADM, APA, BG, BKR, CF, COP, CTRA, CTVA, CVX, DVN, EOG, EQT, FANG, HAL, HES, KMI, MOS, MPC, MRO, OKE, OXY, PSX, SLB, TRGP, VLO, WMB, XOM
-- **Cluster 1:** 53 stocks  
-  ABBV, ACGL, AIZ, ALL, AMGN, AZO, BAX, BDX, BIIB, BMY, CAH, CB, CBOE, CHTR, CI, CINF, CMCSA, CME, CNC, COR, CVS, DVA, EG, ELV, GEN, GILD, HCA, HSIC, HUM, IBM, INCY, LLY, MCD, MCK, MDT, MOH, MRK, NEM, ORLY, PFE, PGR, REGN, RTX, STZ, T, TMUS, TRV, UHS, UNH, VRTX, VZ, WBA, WRB
-- **Cluster 2:** 26 stocks  
-  AMT, ARE, AVB, BXP, CCI, CPT, DLR, DOC, EQIX, EQR, ESS, EXR, FRT, INVH, IRM, KIM, MAA, O, PLD, PSA, REG, SBAC, UDR, VICI, VTR, WELL
-- **Cluster 3:** 87 stocks  
-  ADP, AES, AJG, AKAM, ALLE, AMCR, AME, AON, AOS, APD, BALL, BBY, BLDR, BLK, BR, BRO, CARR, CHRW, COST, CSCO, CSX, CTAS, DG, DHI, DLTR, DOV, EBAY, ECL, EFX, ETN, EXPD, FAST, FDS, FI, FTV, GPC, GRMN, GWW, HD, HON, HUBB, ICE, IEX, ITW, J, JBHT, JCI, JKHY, LEN, LOW, MAS, MLM, MMC, MMM, MNST, MSI, NDAQ, NDSN, NRG, NSC, NVR, ODFL, ORCL, OTIS, PAYX, PHM, PNR, POOL, PWR, ROK, ROL, ROP, ROST, SHW, TDY, TGT, TSCO, TT, UNP, UPS, VMC, VRSK, VRSN, WTW, WY, XYL, YUM
-- **Cluster 4:** 35 stocks  
-  AEE, AEP, ATO, AWK, CMS, CNP, D, DTE, DUK, ED, EIX, ES, ETR, EVRG, EXC, FE, GD, HII, LDOS, LHX, LMT, LNT, NEE, NI, NOC, PEG, PNW, PPL, RSG, SO, SRE, VST, WEC, WM, XEL
-- **Cluster 5:** 102 stocks  
-  AAL, AFL, AIG, ALB, AMP, APTV, AVY, AXP, BA, BAC, BEN, BK, BKNG, BWA, C, CAT, CBRE, CE, CFG, CMI, COF, CPAY, DAL, DD, DE, DFS, DOW, EMN, EMR, F, FCX, FDX, FITB, FMC, FOX, FOXA, GE, GL, GLW, GM, GS, HBAN, HIG, HLT, HPE, HST, HWM, IFF, IP, IPG, IR, IVZ, JPM, KEY, L, LIN, LKQ, LUV, LW, LYB, MAR, MET, MHK, MS, MTB, NTRS, NUE, NWS, NWSA, OMC, PARA, PCAR, PCG, PFG, PH, PKG, PNC, PPG, PRU, RF, RJF, RL, SCHW, SNA, SPG, STLD, STT, SWK, SYF, SYY, TDG, TFC, TJX, TPR, TXT, UAL, URI, USB, VTRS, WAB, WFC, WRK
-- **Cluster 6:** 25 stocks  
-  CAG, CHD, CL, CLX, CPB, GIS, HRL, HSY, JNJ, K, KDP, KHC, KMB, KO, KR, MDLZ, MKC, MO, PEP, PG, PM, SJM, TAP, TSN, WMT
-- **Cluster 7:** 56 stocks  
-  ABNB, ADSK, AMZN, ANSS, AXON, BBWI, BX, CCL, CMG, CPRT, CRM, CRWD, CSGP, CZR, DAY, DECK, DIS, DPZ, DRI, DXCM, ENPH, EPAM, ETSY, EXPE, FICO, FSLR, FTNT, GDDY, GNRC, INTU, IT, KMX, LULU, LVS, LYV, MGM, MKTX, MRNA, MTCH, NCLH, NFLX, NOW, PANW, PAYC, PODD, PTC, PYPL, RCL, SBUX, TSLA, TTWO, TYL, UBER, ULTA, WBD, WYNN
-- **Cluster 8:** 53 stocks  
-  AAPL, ACN, ADBE, ADI, AMAT, AMD, ANET, APH, AVGO, CDNS, CDW, CTSH, EA, EL, FFIV, FIS, GOOG, GOOGL, GPN, HAS, HPQ, INTC, JBL, JNPR, KEYS, KKR, KLAC, LRCX, MA, MCHP, META, MPWR, MSFT, MU, NKE, NTAP, NVDA, NXPI, ON, QCOM, QRVO, SMCI, SNPS, STX, SWKS, TEL, TER, TRMB, TROW, TXN, V, WDC, ZBRA
-- **Cluster 9:** 31 stocks  
-  A, ABT, ALGN, BIO, BSX, COO, CRL, CTLT, DGX, DHR, EW, HOLX, IDXX, IQV, ISRG, LH, MCO, MSCI, MTD, RMD, RVTY, SPGI, STE, SYK, TECH, TFX, TMO, WAT, WST, ZBH, ZTS
-
 
 ### DTW + K-means
 The clustering based on DTW + K-means resulted in the following clusters:
@@ -99,4 +72,34 @@ Based on the list of companies concerned, let's observe the result through econo
   - DTW + K-means clusters Amazon, Apple, Intel, Microsoft in the same group.
 
 PCA + K-means captures the overall trends similarly to DTW + K-means, but DTW + K-means can also capture temporal-shifting/lead-lag effects. A comprehensive analysis should utilize both methods.
+
+## Detailed Clustering Results 
+Note: The names of the clusters do not indicate any order or ranking; they merely represent different categories or groups.
+
+### PCA + K-means
+The clustering based on PCA + K-means resulted in the following clusters:
+
+- **Cluster 0:** 27 stocks  
+  ADM, APA, BG, BKR, CF, COP, CTRA, CTVA, CVX, DVN, EOG, EQT, FANG, HAL, HES, KMI, MOS, MPC, MRO, OKE, OXY, PSX, SLB, TRGP, VLO, WMB, XOM
+- **Cluster 1:** 53 stocks  
+  ABBV, ACGL, AIZ, ALL, AMGN, AZO, BAX, BDX, BIIB, BMY, CAH, CB, CBOE, CHTR, CI, CINF, CMCSA, CME, CNC, COR, CVS, DVA, EG, ELV, GEN, GILD, HCA, HSIC, HUM, IBM, INCY, LLY, MCD, MCK, MDT, MOH, MRK, NEM, ORLY, PFE, PGR, REGN, RTX, STZ, T, TMUS, TRV, UHS, UNH, VRTX, VZ, WBA, WRB
+- **Cluster 2:** 26 stocks  
+  AMT, ARE, AVB, BXP, CCI, CPT, DLR, DOC, EQIX, EQR, ESS, EXR, FRT, INVH, IRM, KIM, MAA, O, PLD, PSA, REG, SBAC, UDR, VICI, VTR, WELL
+- **Cluster 3:** 87 stocks  
+  ADP, AES, AJG, AKAM, ALLE, AMCR, AME, AON, AOS, APD, BALL, BBY, BLDR, BLK, BR, BRO, CARR, CHRW, COST, CSCO, CSX, CTAS, DG, DHI, DLTR, DOV, EBAY, ECL, EFX, ETN, EXPD, FAST, FDS, FI, FTV, GPC, GRMN, GWW, HD, HON, HUBB, ICE, IEX, ITW, J, JBHT, JCI, JKHY, LEN, LOW, MAS, MLM, MMC, MMM, MNST, MSI, NDAQ, NDSN, NRG, NSC, NVR, ODFL, ORCL, OTIS, PAYX, PHM, PNR, POOL, PWR, ROK, ROL, ROP, ROST, SHW, TDY, TGT, TSCO, TT, UNP, UPS, VMC, VRSK, VRSN, WTW, WY, XYL, YUM
+- **Cluster 4:** 35 stocks  
+  AEE, AEP, ATO, AWK, CMS, CNP, D, DTE, DUK, ED, EIX, ES, ETR, EVRG, EXC, FE, GD, HII, LDOS, LHX, LMT, LNT, NEE, NI, NOC, PEG, PNW, PPL, RSG, SO, SRE, VST, WEC, WM, XEL
+- **Cluster 5:** 102 stocks  
+  AAL, AFL, AIG, ALB, AMP, APTV, AVY, AXP, BA, BAC, BEN, BK, BKNG, BWA, C, CAT, CBRE, CE, CFG, CMI, COF, CPAY, DAL, DD, DE, DFS, DOW, EMN, EMR, F, FCX, FDX, FITB, FMC, FOX, FOXA, GE, GL, GLW, GM, GS, HBAN, HIG, HLT, HPE, HST, HWM, IFF, IP, IPG, IR, IVZ, JPM, KEY, L, LIN, LKQ, LUV, LW, LYB, MAR, MET, MHK, MS, MTB, NTRS, NUE, NWS, NWSA, OMC, PARA, PCAR, PCG, PFG, PH, PKG, PNC, PPG, PRU, RF, RJF, RL, SCHW, SNA, SPG, STLD, STT, SWK, SYF, SYY, TDG, TFC, TJX, TPR, TXT, UAL, URI, USB, VTRS, WAB, WFC, WRK
+- **Cluster 6:** 25 stocks  
+  CAG, CHD, CL, CLX, CPB, GIS, HRL, HSY, JNJ, K, KDP, KHC, KMB, KO, KR, MDLZ, MKC, MO, PEP, PG, PM, SJM, TAP, TSN, WMT
+- **Cluster 7:** 56 stocks  
+  ABNB, ADSK, AMZN, ANSS, AXON, BBWI, BX, CCL, CMG, CPRT, CRM, CRWD, CSGP, CZR, DAY, DECK, DIS, DPZ, DRI, DXCM, ENPH, EPAM, ETSY, EXPE, FICO, FSLR, FTNT, GDDY, GNRC, INTU, IT, KMX, LULU, LVS, LYV, MGM, MKTX, MRNA, MTCH, NCLH, NFLX, NOW, PANW, PAYC, PODD, PTC, PYPL, RCL, SBUX, TSLA, TTWO, TYL, UBER, ULTA, WBD, WYNN
+- **Cluster 8:** 53 stocks  
+  AAPL, ACN, ADBE, ADI, AMAT, AMD, ANET, APH, AVGO, CDNS, CDW, CTSH, EA, EL, FFIV, FIS, GOOG, GOOGL, GPN, HAS, HPQ, INTC, JBL, JNPR, KEYS, KKR, KLAC, LRCX, MA, MCHP, META, MPWR, MSFT, MU, NKE, NTAP, NVDA, NXPI, ON, QCOM, QRVO, SMCI, SNPS, STX, SWKS, TEL, TER, TRMB, TROW, TXN, V, WDC, ZBRA
+- **Cluster 9:** 31 stocks  
+  A, ABT, ALGN, BIO, BSX, COO, CRL, CTLT, DGX, DHR, EW, HOLX, IDXX, IQV, ISRG, LH, MCO, MSCI, MTD, RMD, RVTY, SPGI, STE, SYK, TECH, TFX, TMO, WAT, WST, ZBH, ZTS
+
+
+
 
