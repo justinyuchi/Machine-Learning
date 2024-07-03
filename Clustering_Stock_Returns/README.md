@@ -22,8 +22,7 @@ From the graph below, I compare the result from two clustering methods:
 - **PCA + K-means**
 - **DTW + K-means**
 
-
-The graph presents a comparison of clustering results using PCA & K-means versus DTW & K-means on stock returns. Here are the key insights:
+Here are the key insights:
 
 PCA & K-means Clustering:
 
@@ -37,24 +36,16 @@ Represented by different markers (circles, squares, diamonds, etc.) as illustrat
 - Stocks with similar DTW-based clusters have the same marker but may be dispersed across different PCA-based clusters.
 
 Key Observations:
-- Contemporaneous Co-movement: PCA & K-means primarily captures contemporaneous co-movement, grouping stocks that move together at the same time.
+- Contemporaneous Co-movement: PCA & K-means primarily capture contemporaneous co-movement, grouping stocks that move together at the same time.
 - Temporal Relationships: DTW & K-means can capture more complex temporal relationships, including lead-lag effects, which are not limited to contemporaneous movements.
 - Cluster Dispersion: The dispersion of similar markers across different colored regions indicates that DTW & K-means can identify stocks with similar temporal dynamics even if they do not move together simultaneously.
-Conclusion:
-There is no definitive right or wrong method to use; the choice depends on the application and the researcher's or practitioner's goals:
-
-PCA & K-means: This approach is more straightforward and easier to interpret but may omit certain relationships. It is useful when the focus is on contemporaneous co-movement.
-
-DTW & K-means: This method incorporates more information about temporal relationships but requires more effort to interpret and determine causation. It is beneficial for capturing complex temporal dynamics that PCA might miss.
-
-This comparison highlights the trade-offs between simplicity and comprehensiveness in clustering stock returns, guiding researchers and practitioners in choosing the appropriate method for their specific needs.
 
 ![Comparison of PCA & K-means vs. DTW & K-means Clustering on Stock Returns](image/cluster_mapping_comparison.png)
 
 ### Observations
 
-- Cluster 2 (diamond marker) by DTW + K-means mostly locates at the bottom right of the graph, corresponding to Cluster I and A (light yellow and light blue) by PCA + K-means.
-- Cluster 0 (circle marker) by DTW + K-means mostly locates at the top left of the graph, corresponding to Cluster C and G (light green, light purple) by PCA + K-means.
+- Cluster 2 (diamond marker) by DTW + K-means is mostly located at the bottom right of the graph, corresponding to Cluster I and A (light yellow and light blue) by PCA + K-means.
+- Cluster 0 (circle marker) by DTW + K-means is mostly located at the top left of the graph, corresponding to Cluster C and G (light green, light purple) by PCA + K-means.
 
 #### Economic Sectors
 
@@ -66,12 +57,21 @@ Based on the list of companies concerned, let's observe the result through econo
   - PCA maps Lockheed Martin and Northrop Grumman in Cluster I (light yellow). DTW + K-means clusters them in Cluster 2 (diamond marker).
   - Boeing is mapped closer to the Banking Industries based on both PCA and DTW methods.
 - **Financial Services (American Express, Bank of America, JPMorgan Chase, MasterCard, Visa):**
-  - PCA maps banks closely together (light green). DTW + K-means clusters Bank of America and American Express in Cluster 0 (circle marker) and JPMorgan Chase, MasterCard, Visa in Cluster 5 (left-pointing black triangle).
+  - PCA maps banks closely together (light green). DTW + K-means clusters Bank of America and American Express in Cluster 0 (circle marker) and JPMorgan Chase, MasterCard, and Visa in Cluster 5 (left-pointing black triangle).
 - **Tech Stocks:**
-  - PCA + K-means clusters Amazon, Apple, MasterCard, Microsoft, Texas Instruments in the same group (dark blue) and Intel and Nvidia in the same group (light purple).
-  - DTW + K-means clusters Amazon, Apple, Intel, Microsoft in the same group.
+  - PCA + K-means clusters Amazon, Apple, MasterCard, Microsoft, and Texas Instruments in the same group (dark blue) and Intel and Nvidia in the same group (light purple).
+  - DTW + K-means clusters Amazon, Apple, Intel, and Microsoft in the same group.
 
 PCA + K-means captures the overall trends similarly to DTW + K-means, but DTW + K-means can also capture temporal-shifting/lead-lag effects. A comprehensive analysis should utilize both methods.
+
+## Discussion:
+There is no definitive right or wrong method to use; the choice depends on the application and the researcher's or practitioner's goals:
+
+PCA & K-means: This approach is more straightforward and easier to interpret but may omit certain relationships. It is useful when the focus is on contemporaneous co-movement.
+
+DTW & K-means: This method incorporates more information about temporal relationships but requires more effort to interpret and determine causation. It is beneficial for capturing complex temporal dynamics that PCA might miss.
+
+This comparison highlights the trade-offs between simplicity and comprehensiveness in clustering stock returns, guiding researchers and practitioners in choosing the appropriate method for their specific needs.
 
 ## Detailed Clustering Results 
 Note: The names of the clusters do not indicate any order or ranking; they merely represent different categories or groups.
