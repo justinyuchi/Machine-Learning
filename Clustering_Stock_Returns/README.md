@@ -1,6 +1,6 @@
 # Stock Clustering Analysis: Comparing PCA + K-means and DTW + K-means
 
-This repository contains a comparative analysis of two clustering methods applied to stock returns: PCA + K-means and DTW + K-means. The analysis is performed using a Jupyter notebook.
+This repository contains a comparative analysis of two clustering methods applied to stock returns: PCA + K-means and DTW + K-means.
 
 ## Project Overview
 
