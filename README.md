@@ -8,7 +8,7 @@ Welcome to my Machine Learning Projects Repository! This repository contains var
 ## Table of Contents
 
 - [Projects](#projects)
-  - [Principal Component Analysis (PCA) on Stock Market: Risks, Factors, Movement Reconstruction](#principal-component-analysis-pca-on-stock-market-risks-factors-movement-reconstruction)
+  - [Principal Component Analysis (PCA) on Stock Market: Risks, Factors, and Movement Reconstruction](#principal-component-analysis-pca-on-stock-market-risks-factors-and-movement-reconstruction)
   - [Stock Clustering Analysis: K-means, PCA, and Dynamic Time Warping (DTW)](#stock-clustering-analysis-k-means-pca-and-dynamic-time-warping-dtw)
   - [Gaussian Naive Bayes, RandomizedSearchCV & Random Forest](#gaussian-naive-bayes-randomizedsearchcv--random-forest)
   - [Logistic Regression](#logistic-regression)
