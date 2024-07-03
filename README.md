@@ -8,7 +8,7 @@ Welcome to my Machine Learning Projects Repository! This repository contains var
 ## Table of Contents
 
 - [Projects](#projects)
-  - [Principal Component Analysis (PCA) on Stock Market](#principal-component-analysis-pca-on-stock-market)
+  - [Principal Component Analysis (PCA) on Stock Market: Risks, Factors, Movement Reconstruction](#principal-component-analysis-pca-on-stock-market-risks-factors-movement-reconstruction)
   - [Stock Clustering Analysis: K-means, PCA, and Dynamic Time Warping (DTW)](#stock-clustering-analysis-k-means-pca-and-dynamic-time-warping-dtw)
   - [Gaussian Naive Bayes, RandomizedSearchCV & Random Forest](#gaussian-naive-bayes-randomizedsearchcv--random-forest)
   - [Logistic Regression](#logistic-regression)
@@ -27,7 +27,7 @@ Welcome to my Machine Learning Projects Repository! This repository contains var
 
 ## Projects
 
-### [Principal Component Analysis (PCA) on Stock Market](./PCA_on_Stock_Market)
+### [Principal Component Analysis (PCA) on Stock Market: Risks, Factors, Movement Reconstruction](./PCA_on_Stock_Market)
 This project demonstrates the application of Principal Component Analysis (PCA) to stock market data. The analysis showcases how to leverage PCA to identify major risks and factors influencing asset returns, reconstruct component portfolios, and backtest the suggested portfolios. This study focuses on the first principal component, with similar procedures applicable to the second and third components.
 
 ![PCA Components and Variance Explained](graphs/pca_components.png)
