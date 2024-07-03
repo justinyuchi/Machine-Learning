@@ -1,13 +1,19 @@
 # Stock Clustering Analysis: Comparing PCA + K-means and DTW + K-means
 
-This repository contains a comparative analysis of two clustering methods applied to stock returns: PCA + K-means and DTW + K-means.
 
 ## Project Overview
+The project aims to cluster stocks based on their return patterns using two methods: PCA + K-means and DTW + K-means. The study will compare the results to highlight the strengths of each approach.
 
-The goal of this project is to cluster stocks based on their return patterns using two different methods and compare the results:
+1. **PCA (Principal Component Analysis) + K-means**: PCA is used for dimensionality reduction, followed by K-means clustering.
+2. **DTW (Dynamic Time Warping) + K-means**: DTW is used to measure the similarity between temporal sequences, followed by K-means clustering.
 
-- **PCA (Principal Component Analysis) + K-means:** PCA is used for dimensionality reduction, followed by K-means clustering.
-- **DTW (Dynamic Time Warping) + K-means:** DTW is used to measure the similarity between temporal sequences, followed by K-means clustering.
+This study provides insights into the advantages of using DTW for clustering temporal data in financial markets, demonstrating its ability to account for lead-lag effects and other temporal relationships that PCA might overlook. 
+
+**Data Period**: January 1, 2022, to December 31, 2022
+
+### Lead-Lag Effects in Financial Markets
+Lead-lag effects are prevalent in stock markets. For example, large-cap stocks often lead small-cap stocks within sectors due to their quicker reactions to market news and economic changes. This is attributed to their higher liquidity, better access to information, and extensive analyst coverage. Similarly, within supply chains, upstream companies may lead downstream companies due to their earlier exposure to raw material price changes and demand signals.
+
 
 ## Visualization
 
