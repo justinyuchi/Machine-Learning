@@ -58,9 +58,9 @@ PCA + K-means captures the overall trends similarly to DTW + K-means, but DTW + 
 ## Discussion:
 There is no definitive right or wrong method to use; the choice depends on the application and the researcher's or practitioner's goals:
 
-PCA & K-means: This approach is more straightforward and easier to interpret but may omit certain relationships. It is useful when the focus is on contemporaneous co-movement.
+PCA + K-means: This approach is more straightforward and easier to interpret but may omit certain relationships. It is useful when the focus is on contemporaneous co-movement.
 
-DTW & K-means: This method incorporates more information about temporal relationships but requires more effort to interpret and determine causation. It is beneficial for capturing complex temporal dynamics that PCA might miss.
+DTW + K-means: This method incorporates more information about temporal relationships but requires more effort to interpret and determine causation. It is beneficial for capturing complex temporal dynamics that PCA might miss.
 
 This comparison highlights the trade-offs between simplicity and comprehensiveness in clustering stock returns, guiding researchers and practitioners in choosing the appropriate method for their specific needs.
 
