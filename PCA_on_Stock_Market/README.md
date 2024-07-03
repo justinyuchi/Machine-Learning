@@ -102,7 +102,7 @@ There are several methods to conduct Principal Component Analysis (PCA) to ident
 
 &nbsp;&nbsp;&nbsp;&nbsp;*Disadvantages:* More complex to implement, higher computational requirements.
 
-&nbsp;&nbsp;&nbsp;&nbsp;**Dynamic Time Warping (DTW) Based Covariance for PCA:**
+&nbsp;&nbsp;&nbsp;&nbsp;**DTW Distance Matrices for PCA in Time Series Analysis:**
 
 &nbsp;&nbsp;&nbsp;&nbsp;*Description:* Use DTW to align time series data, then calculate a covariance matrix based on the aligned series and apply PCA. This method adjusts for temporal misalignments before factor extraction.
 
