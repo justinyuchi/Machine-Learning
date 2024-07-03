@@ -110,7 +110,7 @@ There are several methods to conduct Principal Component Analysis (PCA) to ident
 
 &nbsp;&nbsp;&nbsp;&nbsp;*Disadvantages:* Computationally intensive, sensitive to noise and outliers.
 
-&nbsp;&nbsp;&nbsp;&nbsp; Explore a project on [DTW, PCA, and Clustering](#https://github.com/justinyuchi/Machine-Learning/blob/0d315e81d318d1c39c43f6060deb52bd3158b015/Clustering_Stock_Returns/README.md) for detailed insights and methodologies.
+&nbsp;&nbsp;&nbsp;&nbsp; Explore a project on [DTW, PCA, and Clustering](https://github.com/justinyuchi/Machine-Learning/blob/0d315e81d318d1c39c43f6060deb52bd3158b015/Clustering_Stock_Returns/README.md) for detailed insights and methodologies.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;**Rolling Window PCA:**
