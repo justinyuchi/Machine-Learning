@@ -30,7 +30,7 @@ Lead-lag effects are prevalent in stock markets. For example, large-cap stocks o
 
 ### Here are the Key Insights and Observations:
 
-Key Insights :
+#### Key Insights :
 - Contemporaneous Co-movement: PCA & K-means primarily capture contemporaneous co-movement, grouping stocks that move together at the same time.
 - Temporal Relationships: DTW & K-means can capture more complex temporal relationships, including lead-lag effects, which are not limited to contemporaneous movements.
 - Cluster Dispersion: The dispersion of similar markers across different colored regions indicates that DTW & K-means can identify stocks with similar temporal dynamics even if they do not move together simultaneously.
