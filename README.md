@@ -9,7 +9,7 @@ Welcome to my Machine Learning Projects Repository! This repository contains var
 
 - [Projects](#projects)
   - [Principal Component Analysis (PCA) on Stock Market](#principal-component-analysis-pca-on-stock-market)
-  - [Stock Clustering Analysis: Comparing PCA + K-means and DTW + K-means](#stock-clustering-analysis-comparing-pca--k-means-and-dtw--k-means)
+  - [Stock Clustering Analysis: K-means, PCA, and Dynamic Time Warping (DTW)](#stock-clustering-analysis-k-means-pca-and-dynamic-time-warping-dtw)
   - [Gaussian Naive Bayes, RandomizedSearchCV & Random Forest](#gaussian-naive-bayes-randomizedsearchcv--random-forest)
   - [Logistic Regression](#logistic-regression)
   - [Classification Evaluation](#classification-evaluation)
@@ -30,7 +30,7 @@ Welcome to my Machine Learning Projects Repository! This repository contains var
 ### [Principal Component Analysis (PCA) on Stock Market](./PCA_on_Stock_Market)
 This project demonstrates the application of Principal Component Analysis (PCA) to stock market data. The analysis showcases how to leverage PCA to identify major risks and factors influencing asset returns, reconstruct component portfolios, and backtest the suggested portfolios. This study focuses on the first principal component, with similar procedures applicable to the second and third components.
 
-### [Stock Clustering Analysis: Comparing PCA + K-means and DTW + K-means](./Clustering_Stock_Returns)
+### [Stock Clustering Analysis: K-means, PCA, and Dynamic Time Warping (DTW)](./Clustering_Stock_Returns)
 The project aims to cluster stocks based on their return patterns using two methods: PCA + K-means and DTW + K-means. The study will compare the results to highlight the strengths of each approach.
 
 1. **PCA (Principal Component Analysis) + K-means**: PCA is used for dimensionality reduction, followed by K-means clustering.
