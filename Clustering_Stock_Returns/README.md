@@ -63,7 +63,7 @@ The clustering based on DTW + K-means resulted in the following clusters:
 
 ## Visualization
 
-![Comparison of PCA & K-means vs. DTW & K-means Clustering on Stock Returns](/image/cluster_mapping_comparison.png)
+![Comparison of PCA & K-means vs. DTW & K-means Clustering on Stock Returns](image/cluster_mapping_comparison.png)
 
 From the graph above, I compare the result from two clustering methods:
 
