@@ -17,8 +17,6 @@ Lead-lag effects are prevalent in stock markets. For example, large-cap stocks o
 
 ## Visualization
 
-From the graph below, I compare the results from two clustering methods:
-
 - **PCA + K-means**
   - Represented by colored regions (Clusters A to J) as shown in the upper-left legend ("Clusters (PCA & K-means)").
   - Stocks are grouped based on their principal component scores, reflecting contemporaneous co-movement.
