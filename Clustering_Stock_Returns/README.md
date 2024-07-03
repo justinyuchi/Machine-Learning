@@ -42,7 +42,7 @@ We can see that the two methods show some degree of similarity because the DTW m
 Based on the list of companies concerned, let's observe the result through economic sectors:
 
 - **Energy Sector (Valero Energy, Chevron, and Exxon):**
-  - PCA maps them to the top of the graph in the red area (Cluster E) and identifies them as Cluster 9 (hexagon marker) by DTW + K-means.
+  - Both methods cluster the target energy companies into the same group. PCA maps them to the top of the graph in the red area (Cluster E by the PCA + K-means methods), while the DTW + K-means method identifies them as Cluster 9 (hexagon marker).
 - **Aerospace and Defense Stocks (Boeing, Lockheed Martin, Northrop Grumman):**
   - PCA maps Lockheed Martin and Northrop Grumman in Cluster I (light yellow). DTW + K-means clusters them in Cluster 2 (diamond marker).
   - Boeing is mapped closer to the Banking Industries based on both PCA and DTW methods.
