@@ -11,9 +11,7 @@ The goal of this project is to cluster stocks based on their return patterns usi
 
 ## Visualization
 
-![Comparison of PCA & K-means vs. DTW & K-means Clustering on Stock Returns](image/cluster_mapping_comparison.png)
-
-From the graph above, I compare the result from two clustering methods:
+From the graph below, I compare the result from two clustering methods:
 
 - **PCA + K-means**
 - **DTW + K-means**
@@ -25,6 +23,8 @@ The clusters predicted by method 2 (DTW + K-means) are marked with different mar
 (Note: The cluster names A, B, C, D... or 1, 2, 3, 4... contain no ordinal information.)
 
 We can see that the two methods show some degree of similarity because the DTW method captures the information that PCA gets.
+
+![Comparison of PCA & K-means vs. DTW & K-means Clustering on Stock Returns](image/cluster_mapping_comparison.png)
 
 ### Observations
 
