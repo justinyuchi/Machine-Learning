@@ -22,13 +22,32 @@ From the graph below, I compare the result from two clustering methods:
 - **PCA + K-means**
 - **DTW + K-means**
 
-The regions and clusters predicted by method 1 (PCA + K-means) are colored differently as shown in the upper-left legend ("Clusters (PCA & K-means)"). The white cross indicates the centroids for each cluster. The axes PC1 and PC2 of the plot are derived from PCA on normalized stock returns.
 
-The clusters predicted by method 2 (DTW + K-means) are marked with different markers for data points as illustrated by the upper-right legend ("Clusters (DTW & K-means)").
+The graph presents a comparison of clustering results using PCA & K-means versus DTW & K-means on stock returns. Here are the key insights:
 
-(Note: The cluster names A, B, C, D... or 1, 2, 3, 4... contain no ordinal information.)
+PCA & K-means Clustering:
 
-We can see that the two methods show some degree of similarity because the DTW method captures the information that PCA gets.
+Represented by colored regions (Clusters A to J) as shown in the upper-left legend ("Clusters (PCA & K-means)").
+- Stocks are grouped based on their principal component scores, reflecting contemporaneous co-movement.
+- The centroids of these clusters are marked with white crosses.
+- DTW & K-means Clustering:
+
+Represented by different markers (circles, squares, diamonds, etc.) as illustrated by the upper-right legend ("Clusters (DTW & K-means)").
+- This method captures not only contemporaneous co-movement but also lead-lag relationships and other temporal shifting patterns.
+- Stocks with similar DTW-based clusters have the same marker but may be dispersed across different PCA-based clusters.
+
+Key Observations:
+- Contemporaneous Co-movement: PCA & K-means primarily captures contemporaneous co-movement, grouping stocks that move together at the same time.
+- Temporal Relationships: DTW & K-means can capture more complex temporal relationships, including lead-lag effects, which are not limited to contemporaneous movements.
+- Cluster Dispersion: The dispersion of similar markers across different colored regions indicates that DTW & K-means can identify stocks with similar temporal dynamics even if they do not move together simultaneously.
+Conclusion:
+There is no definitive right or wrong method to use; the choice depends on the application and the researcher's or practitioner's goals:
+
+PCA & K-means: This approach is more straightforward and easier to interpret but may omit certain relationships. It is useful when the focus is on contemporaneous co-movement.
+
+DTW & K-means: This method incorporates more information about temporal relationships but requires more effort to interpret and determine causation. It is beneficial for capturing complex temporal dynamics that PCA might miss.
+
+This comparison highlights the trade-offs between simplicity and comprehensiveness in clustering stock returns, guiding researchers and practitioners in choosing the appropriate method for their specific needs.
 
 ![Comparison of PCA & K-means vs. DTW & K-means Clustering on Stock Returns](image/cluster_mapping_comparison.png)
 
