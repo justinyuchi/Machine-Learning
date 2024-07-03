@@ -26,12 +26,12 @@ The clusters predicted by method 2 (DTW + K-means) are marked with different mar
 
 We can see that the two methods show some degree of similarity because the DTW method captures the information that PCA gets.
 
-## Observations
+### Observations
 
 - Cluster 2 (diamond marker) by DTW + K-means mostly locates at the bottom right of the graph, corresponding to Cluster I and A (light yellow and light blue) by PCA + K-means.
 - Cluster 0 (circle marker) by DTW + K-means mostly locates at the top left of the graph, corresponding to Cluster C and G (light green, light purple) by PCA + K-means.
 
-### Economic Sectors
+#### Economic Sectors
 
 Based on the list of companies concerned, let's observe the result through economic sectors:
 
